@@ -16,10 +16,10 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "cp -r middleware/* ../../app/Middleware/"
+            "rsync -av middleware/* ../../app/Middleware/"
         ],
         "post-update-cmd": [
-            "cp -r middleware/* ../../app/Middleware/"
+            "rsync -av middleware/* ../../app/Middleware/"
         ]
     },
     "minimum-stability": "stable",
