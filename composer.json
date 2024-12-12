@@ -1,0 +1,29 @@
+{
+    "name": "piramit/csrf",
+    "version": "1.0.0",
+    "description": "Pyramid CSRF (Cross-Site Request Forgery)",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nihat Doğan"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pyramid\\": "src/"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "cp -r Middleware/* ../app/Middleware/"
+        ],
+        "post-update-cmd": [
+            "cp -r Middleware/* ../app/Middleware/"
+        ]
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.2"
+    }
+}
