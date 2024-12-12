@@ -15,12 +15,9 @@
         }
     },
     "scripts": {
-        "post-install-cmd": [
+        "post-install-script": [
             "cp -r  middleware/* ../../../app/Middleware/"
         ],
-        "post-update-cmd": [
-            "cp -r middleware/* ../../../app/Middleware/"
-        ]
     },
     "minimum-stability": "stable",
     "require": {
