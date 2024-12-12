@@ -15,7 +15,6 @@ class CsrfMiddleware {
 				die( "Geçersiz CSRF token!" );  // Token geçersizse işlem durur
 			}
 		}
-
 		/**  Doğrulama başarılıysa, isteğin işleme devam etmesine izin verilir */
 		return $next( $request );
 	}
