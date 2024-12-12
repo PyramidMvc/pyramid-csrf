@@ -14,11 +14,6 @@
             "Pyramid\\": "src/"
         }
     },
-    "scripts": {
-        "post-install-script": [
-            "cp -r  middleware/* ../../../app/Middleware/"
-        ],
-    },
     "minimum-stability": "stable",
     "require": {
         "php": "^8.2"
