@@ -1,6 +1,6 @@
 <?php
 
-namespace Pyramid;
+namespace Pyramid\Middleware;
 
 use Pyramid\Request;
 
